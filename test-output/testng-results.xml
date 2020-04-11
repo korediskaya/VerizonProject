@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="8" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Verizon Iphone Test" duration-ms="189326" started-at="2020-04-11T11:19:24Z" finished-at="2020-04-11T11:22:34Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="189326" started-at="2020-04-11T11:19:24Z" finished-at="2020-04-11T11:22:34Z">
+      <class name="Test.VerizoanMainPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.VerizoanMainPageTest@42d80b78]" name="setUp" is-config="true" duration-ms="6349" started-at="2020-04-11T11:19:24Z" finished-at="2020-04-11T11:19:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getTitle()[pri:1, instance:Test.VerizoanMainPageTest@42d80b78]" name="getTitle" duration-ms="110" started-at="2020-04-11T11:19:31Z" description="Main Page Title" finished-at="2020-04-11T11:19:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.VerizoanMainPageTest@42d80b78]" name="tearDown" is-config="true" duration-ms="116" started-at="2020-04-11T11:19:31Z" finished-at="2020-04-11T11:19:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.VerizoanMainPageTest@42d80b78]" name="setUp" is-config="true" duration-ms="2634" started-at="2020-04-11T11:20:46Z" finished-at="2020-04-11T11:20:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="doSendAndClik()[pri:2, instance:Test.VerizoanMainPageTest@42d80b78]" name="doSendAndClik" duration-ms="6485" started-at="2020-04-11T11:20:49Z" description="Main page Mouse over and clik" finished-at="2020-04-11T11:20:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSendAndClik -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.VerizoanMainPageTest@42d80b78]" name="tearDown" is-config="true" duration-ms="128" started-at="2020-04-11T11:20:55Z" finished-at="2020-04-11T11:20:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.VerizoanMainPageTest -->
+      <class name="Test.FeaturesTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.FeaturesTest@1bce4f0a]" name="setUp" is-config="true" duration-ms="15585" started-at="2020-04-11T11:19:41Z" finished-at="2020-04-11T11:19:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="getTitle()[pri:1, instance:Test.FeaturesTest@1bce4f0a]" name="getTitle" duration-ms="20208" started-at="2020-04-11T11:19:57Z" finished-at="2020-04-11T11:20:17Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for title to contain "Apple iPhone 11: Colors, Cameras & More | Buy Today at Verizon". Current title: "New Apple iPhone 11 - 6 Cool Colors & Dual Camera | Best Price" (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MMs-MacBook-Air.home', ip: 'fe80:0:0:0:1c3c:8d66:c35e:c464%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/rl/g1v1d8vn2cs...}, goog:chromeOptions: {debuggerAddress: localhost:54489}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a27237f80e64376f284684960d8a8a23]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "Apple iPhone 11: Colors, Cameras & More | Buy Today at Verizon". Current title: "New Apple iPhone 11 - 6 Cool Colors & Dual Camera | Best Price" (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MMs-MacBook-Air.home', ip: 'fe80:0:0:0:1c3c:8d66:c35e:c464%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/rl/g1v1d8vn2cs...}, goog:chromeOptions: {debuggerAddress: localhost:54489}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a27237f80e64376f284684960d8a8a23
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at Utilities.ElementUtil.waitForGetPageTitle(ElementUtil.java:111)
+at Pages.Features.getFeaturesTitle(Features.java:32)
+at Test.FeaturesTest.getTitle(FeaturesTest.java:42)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.FeaturesTest@1bce4f0a]" name="tearDown" is-config="true" duration-ms="133" started-at="2020-04-11T11:20:17Z" finished-at="2020-04-11T11:20:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.FeaturesTest@1bce4f0a]" name="setUp" is-config="true" duration-ms="14908" started-at="2020-04-11T11:21:11Z" finished-at="2020-04-11T11:21:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="doSendAndClik()[pri:2, instance:Test.FeaturesTest@1bce4f0a]" name="doSendAndClik" duration-ms="17457" started-at="2020-04-11T11:21:25Z" finished-at="2020-04-11T11:21:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSendAndClik -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.FeaturesTest@1bce4f0a]" name="tearDown" is-config="true" duration-ms="216" started-at="2020-04-11T11:21:43Z" finished-at="2020-04-11T11:21:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.FeaturesTest -->
+      <class name="Test.CustomizeTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.CustomizeTest@5e3a8624]" name="setUp" is-config="true" duration-ms="28672" started-at="2020-04-11T11:20:17Z" finished-at="2020-04-11T11:20:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getTitle()[pri:1, instance:Test.CustomizeTest@5e3a8624]" name="getTitle" duration-ms="60" started-at="2020-04-11T11:20:46Z" finished-at="2020-04-11T11:20:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.CustomizeTest@5e3a8624]" name="tearDown" is-config="true" duration-ms="158" started-at="2020-04-11T11:20:46Z" finished-at="2020-04-11T11:20:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.CustomizeTest@5e3a8624]" name="setUp" is-config="true" duration-ms="41814" started-at="2020-04-11T11:21:43Z" finished-at="2020-04-11T11:22:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="doSendAndClik()[pri:2, instance:Test.CustomizeTest@5e3a8624]" name="doSendAndClik" duration-ms="8495" started-at="2020-04-11T11:22:25Z" finished-at="2020-04-11T11:22:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSendAndClik -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.CustomizeTest@5e3a8624]" name="tearDown" is-config="true" duration-ms="206" started-at="2020-04-11T11:22:33Z" finished-at="2020-04-11T11:22:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.CustomizeTest -->
+      <class name="Test.ShoppingTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.ShoppingTest@3bfdc050]" name="setUp" is-config="true" duration-ms="10216" started-at="2020-04-11T11:19:31Z" finished-at="2020-04-11T11:19:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getTitle()[pri:1, instance:Test.ShoppingTest@3bfdc050]" name="getTitle" duration-ms="18" started-at="2020-04-11T11:19:41Z" description="Shopping Page Title" finished-at="2020-04-11T11:19:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.ShoppingTest@3bfdc050]" name="tearDown" is-config="true" duration-ms="127" started-at="2020-04-11T11:19:41Z" finished-at="2020-04-11T11:19:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.ShoppingTest@3bfdc050]" name="setUp" is-config="true" duration-ms="10014" started-at="2020-04-11T11:20:55Z" finished-at="2020-04-11T11:21:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="doSendAndClik()[pri:2, instance:Test.ShoppingTest@3bfdc050]" name="doSendAndClik" duration-ms="5000" started-at="2020-04-11T11:21:05Z" description="IPhone Selection" finished-at="2020-04-11T11:21:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSendAndClik -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.ShoppingTest@3bfdc050]" name="tearDown" is-config="true" duration-ms="129" started-at="2020-04-11T11:21:10Z" finished-at="2020-04-11T11:21:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.ShoppingTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Verizon Iphone Test -->
+</testng-results>

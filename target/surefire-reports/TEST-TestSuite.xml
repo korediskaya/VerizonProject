@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="8" failures="1" name="TestSuite" time="63.964" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="HotelProject"/>
+    <property name="PWD" value="/Users/mm"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/Users/mm/.jenkins"/>
+    <property name="PATH" value="/Users/mm/.jenkins/tools/hudson.model.JDK/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mysql/bin/"/>
+    <property name="HUDSON_SERVER_COOKIE" value="fd41436e4bc7ff98"/>
+    <property name="POM_ARTIFACTID" value="CucumberMarch_2020"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="TERM_PROGRAM" value="Apple_Terminal"/>
+    <property name="sun.boot.class.path" value="/Users/mm/.jenkins/tools/hudson.model.JDK/jre/lib/resources.jar:/Users/mm/.jenkins/tools/hudson.model.JDK/jre/lib/rt.jar:/Users/mm/.jenkins/tools/hudson.model.JDK/jre/lib/sunrsasign.jar:/Users/mm/.jenkins/tools/hudson.model.JDK/jre/lib/jsse.jar:/Users/mm/.jenkins/tools/hudson.model.JDK/jre/lib/jce.jar:/Users/mm/.jenkins/tools/hudson.model.JDK/jre/lib/charsets.jar:/Users/mm/.jenkins/tools/hudson.model.JDK/jre/lib/jfr.jar:/Users/mm/.jenkins/tools/hudson.model.JDK/jre/classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="TERM_SESSION_ID" value="609BEB72-272C-49E1-9DB4-F67621A25BF5"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="CucumberMarch_2020"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="JAVA_MAIN_CLASS_74360" value="Main"/>
+    <property name="user.name" value="mm"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="HotelProject"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/HotelProject/17/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#17"/>
+    <property name="TMPDIR" value="/var/folders/rl/g1v1d8vn2cs0ylyh6lmjlv980000gn/T/"/>
+    <property name="sun.boot.library.path" value="/Users/mm/.jenkins/tools/hudson.model.JDK/jre/lib"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="XPC_FLAGS" value="0x0"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="TERM" value="xterm-256color"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.endorsed.dirs" value="/Users/mm/.jenkins/tools/hudson.model.JDK/jre/lib/endorsed"/>
+    <property name="BUILD_ID" value="17"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="/Users/mm/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/tests/conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="java.home" value="/Users/mm/.jenkins/tools/hudson.model.JDK/jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.15.3"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/HotelProject/17/display/redirect"/>
+    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/HotelProject/display/redirect"/>
+    <property name="SHLVL" value="1"/>
+    <property name="_" value="/usr/local/bin/jenkins-lts"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="JAVA_HOME" value="/Users/mm/.jenkins/tools/hudson.model.JDK"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="LOGNAME" value="mm"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="HOME" value="/Users/mm"/>
+    <property name="POM_GROUPID" value="org.example"/>
+    <property name="user.home" value="/Users/mm"/>
+    <property name="BUILD_TAG" value="jenkins-HotelProject-17"/>
+    <property name="JENKINS_SERVER_COOKIE" value="fd41436e4bc7ff98"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="XPC_SERVICE_NAME" value="0"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="/Users/mm/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="/Users/mm/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/tests"/>
+    <property name="java.class.path" value="/Users/mm/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.13.jar:/Users/mm/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/tests/boot/plexus-classworlds-2.6.0.jar:/Users/mm/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/tests/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /Users/mm/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/tests /Users/mm/.jenkins/war/WEB-INF/lib/remoting-4.2.jar /Users/mm/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar /Users/mm/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar 55680"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PATH+JDK" value="/Users/mm/.jenkins/tools/hudson.model.JDK/bin"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="/Users/mm/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/tests"/>
+    <property name="java.io.tmpdir" value="/var/folders/rl/g1v1d8vn2cs0ylyh6lmjlv980000gn/T/"/>
+    <property name="HUDSON_HOME" value="/Users/mm/.jenkins"/>
+    <property name="PATH+MAVEN" value="/Users/mm/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/tests/bin"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/HotelProject/17/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.0UF7LQmTcH/Listeners"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.ext.dirs" value="/Users/mm/Library/Java/Extensions:/Users/mm/.jenkins/tools/hudson.model.JDK/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="__CF_USER_TEXT_ENCODING" value="0x1F5:0x0:0x0"/>
+    <property name="user.dir" value="/Users/mm/Documents/workspace/VerizonTestNG_Mali"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/HotelProject/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="/Users/mm/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/tests"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="17"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="TERM_PROGRAM_VERSION" value="433"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="LANG" value="en_US.UTF-8"/>
+    <property name="maven3.interceptor" value="/Users/mm/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE_TMP" value="/Users/mm/.jenkins/workspace/HotelProject@tmp"/>
+    <property name="WORKSPACE" value="/Users/mm/.jenkins/workspace/HotelProject"/>
+    <property name="maven3.interceptor.common" value="/Users/mm/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="USER" value="mm"/>
+  </properties>
+  <testcase classname="Test.ShoppingTest" name="getTitle" time="0.279"/>
+  <testcase classname="Test.VerizoanMainPageTest" name="getTitle" time="0.032"/>
+  <testcase classname="Test.FeaturesTest" name="getTitle" time="20.452">
+    <failure message="Expected condition failed: waiting for title to contain &quot;Apple iPhone 11: Colors, Cameras &amp; More | Buy Today at Verizon&quot;. Current title: &quot;New Apple iPhone 11 - 6 Cool Colors &amp; Dual Camera | Best Price&quot; (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MMs-MacBook-Air.home&apos;, ip: &apos;fe80:0:0:0:1c3c:8d66:c35e:c464%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.3&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/rl/g1v1d8vn2cs...}, goog:chromeOptions: {debuggerAddress: localhost:55866}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 64a63c3c9c808ef3feabefcaf21fad53" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain &quot;Apple iPhone 11: Colors, Cameras &amp; More | Buy Today at Verizon&quot;. Current title: &quot;New Apple iPhone 11 - 6 Cool Colors &amp; Dual Camera | Best Price&quot; (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MMs-MacBook-Air.home&apos;, ip: &apos;fe80:0:0:0:1c3c:8d66:c35e:c464%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.3&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/rl/g1v1d8vn2cs...}, goog:chromeOptions: {debuggerAddress: localhost:55866}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 64a63c3c9c808ef3feabefcaf21fad53
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at Utilities.ElementUtil.waitForGetPageTitle(ElementUtil.java:111)
+	at Pages.Features.getFeaturesTitle(Features.java:32)
+	at Test.FeaturesTest.getTitle(FeaturesTest.java:42)
+</failure>
+    <system-err>Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 47179
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1586604372.086][WARNING]: This version of ChromeDriver has not been tested with Chrome version 80.
+Apr 11, 2020 7:26:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="Test.CustomizeTest" name="getTitle" time="0.166"/>
+  <testcase classname="Test.ShoppingTest" name="doSendAndClik" time="7.809"/>
+  <testcase classname="Test.VerizoanMainPageTest" name="doSendAndClik" time="8.543"/>
+  <testcase classname="Test.FeaturesTest" name="doSendAndClik" time="17.104"/>
+  <testcase classname="Test.CustomizeTest" name="doSendAndClik" time="9.579"/>
+</testsuite>
